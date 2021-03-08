@@ -9,7 +9,7 @@ public class UserDao {
 	static {
 		users.add(new User(1,"adam",new Date()));
 		users.add(new User(2,"lulia", new Date()));
-		users.add(new User(3,"Simi Chutia", new Date()));
+		users.add(new User(3,"Simi Singh", new Date()));
 	}
 	public List userreturnAll()
 	{
