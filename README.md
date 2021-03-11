@@ -1,6 +1,5 @@
 # Mircroservices_Learning
-DESCRIPTION:
-THIS IS A BASIC SPRINGBOOT API WHICH RETURNS HELLO WORLD AS A TEXT AND HTTP STATUS 200.
+DESCRIPTION:THIS IS A BASIC SPRINGBOOT API WHICH RETURNS HELLO WORLD AS A TEXT AND HTTP STATUS 200.
 
 REQUIREMENTS:
 1. You need an Laptop that can run local server or localhost.
@@ -22,5 +21,5 @@ HOW TO RUN:
 
 
 IMPROVEMENTS:
-	I will be adding some more functionalities to the Repository and according to that i will 		change the description.
+	I will be adding some more functionalities to the Repository and according to that i will change the description.
 	
