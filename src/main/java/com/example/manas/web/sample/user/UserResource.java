@@ -44,7 +44,7 @@ public class UserResource {
 		return resource;
 		
 	}
-	@DeleteMapping(path="/deleteuser/{id}")
+	@DeleteMapping(path="/user/{id}")
 	public User deleteuser(@PathVariable int id)
 	{
 		User user = service.deleteUser(id);
@@ -54,7 +54,7 @@ public class UserResource {
 		}
 		return user;
 	}
-	@PostMapping(path="/createUser")
+	@PostMapping(path="/user")
 	public ResponseEntity<Object> createuser(@Valid @RequestBody User user)
 	{
 		User savedUser = service.adduser(user);
