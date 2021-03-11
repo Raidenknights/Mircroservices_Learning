@@ -27,12 +27,12 @@ public class UserResource {
 
 	//get all users function
 	//we are going to Map it using /getallusers
-	@GetMapping(path="/getallusers")
+	@GetMapping(path="/getAllUsers")
 	public List<User> userfindall()
 	{
 		return service.userreturnAll();
 	}
-	@GetMapping(path="/getone/{id}")
+	@GetMapping(path="/get/{id}")
 	public EntityModel<User> findOne(@PathVariable int  id)
 	{
 		User user = service.FindUser(id);
