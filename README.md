@@ -20,5 +20,5 @@ HOW TO RUN:
 	""sample/src/main/java/com/example/manas/web/sample/helloworld/Hellobean.java"-File to see structure of the bean.
 
 IMPROVEMENTS:
-	I will be adding some more functionalities to the Repository and according to that i will 		change the description.
+	I will be adding some more functionalities to the Repository and according to that i will change the description.
 	
