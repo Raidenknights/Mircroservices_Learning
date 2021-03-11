@@ -14,12 +14,10 @@ HOW TO RUN:
 2. After running this file you will notice Tomcat server will start on the port 8080.
 3. Open Postman or any browser will also work and send a HTTP request "localhost:8080/helloworld"
   	this will return Hello world as a message and a HTTP status of 200.
-	  PATH FOR THE FILE:"sample/src/main/java/com/example/manas/web/sample/helloworld/HelloController"
-4. You can also try hitting localhost:8080/hellobean this will return a message "Hello world" in JSON with status 200.
+	PATH FOR THE FILE:"sample/src/main/java/com/example/manas/web/sample/helloworld/HelloController"
+4. You can also try hitting localhost:8080/hellobean this will return a message "Hello world" in 	JSON with status 200.
 	"sample/src/main/java/com/example/manas/web/sample/helloworld/HelloController.java"- file for handling GET request.
-  "sample/src/main/java/com/example/manas/web/sample/helloworld/Hellobean.java"-File to see structure of the bean.
-
+	"sample/src/main/java/com/example/manas/web/sample/helloworld/Hellobean.java"-File to see structure of the bean.
 
 IMPROVEMENTS:
 	I will be adding some more functionalities to the Repository and according to that i will change the description.
-	
