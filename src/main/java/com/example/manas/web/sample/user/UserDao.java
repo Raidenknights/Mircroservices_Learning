@@ -11,11 +11,11 @@ public class UserDao {
 		users.add(new User(2,"lulia", new Date()));
 		users.add(new User(3,"Simi Singh", new Date()));
 	}
-	public List userreturnAll()
+	public List userReturnAll()
 	{
 		return users;
 	}
-	public User FindUser(int id)
+	public User findUser(int id)
 	{
 		for(User user:users)
 		{
@@ -24,7 +24,7 @@ public class UserDao {
 		}
 		return null;
 	}
-	public User adduser(User user)
+	public User addUser(User user)
 	{
 		if(user.getId()==null)
 		{
