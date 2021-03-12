@@ -28,12 +28,12 @@ public class UserResource {
 	//get all users function
 	//we are going to Map it using /getallusers
 	@GetMapping(path="/getAllUsers")
-	public List<User> userfindall()
+	public List<User> userFindAll()
 	{
 		return service.userreturnAll();
 	}
 	@GetMapping(path="/get/{id}")
-	public EntityModel<User> findOne(@PathVariable int  id)
+	public EntityModel<User> findOne(@PathVariable int id)
 	{
 		User user = service.FindUser(id);
 		if(user==null)
@@ -45,7 +45,7 @@ public class UserResource {
 		
 	}
 	@DeleteMapping(path="/user/{id}")
-	public User deleteuser(@PathVariable int id)
+	public User deleteUser(@PathVariable int id)
 	{
 		User user = service.deleteUser(id);
 		if(user==null)
@@ -55,7 +55,7 @@ public class UserResource {
 		return user;
 	}
 	@PostMapping(path="/user")
-	public ResponseEntity<Object> createuser(@Valid @RequestBody User user)
+	public ResponseEntity<Object> createUser(@Valid @RequestBody User user)
 	{
 		User savedUser = service.adduser(user);
 		return ResponseEntity.created(ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
