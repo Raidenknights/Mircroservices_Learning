@@ -8,13 +8,12 @@ public class User {
 	@Size(min=2)
 	private String name;
 	@Past
-	private Date birth;
-	User(Integer id,String name,Date birth)
+	private Date dob;
+	public User(Integer id,String name,Date dob)
 	{
-		super();
 		this.id=id;
 		this.name=name;
-		this.birth=birth;
+		this.dob=dob;
 	}
 	public Integer getId() {
 		return id;
@@ -29,10 +28,10 @@ public class User {
 		this.name = name;
 	}
 	public Date getBirth() {
-		return birth;
+		return dob;
 	}
-	public void setBirth(Date birth) {
-		this.birth = birth;
+	public void setBirth(Date dob) {
+		this.dob = dob;
 	}
 }
 
